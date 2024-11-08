@@ -224,16 +224,17 @@ footer{
 }
 
 .btn{
-    padding: 6px 20px;
+    padding: 16px 30px;
     border: 2px solid white;
     background-color: red;
     color: white;
-    margin: 17px;
-    font-size: 1.5rem;
-    border-radius: 10px;
+    margin: 2px;
+    font-size: 1.3rem;
+    border-radius: 15px;
     cursor: pointer;
 }
 
 .centre{
     text-align: center;
 }
+
