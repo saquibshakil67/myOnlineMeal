@@ -72,7 +72,9 @@
     <section id="contact">
         <h1 class="h-primary centre">Contact Us</h1>
         <div id="contact-box">
-            <form action="">
+            <form action="https://api.web3forms.com/submit" method="POST" class="form-group">
+                <input type="hidden" name="access_key" value="9a9750c1-2ab8-4ec2-a945-71cb66f03e5e">
+
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" name="name" id="name"
@@ -92,6 +94,7 @@
                     <label for="message">Message:</label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
+                <button><div class="btn">Submit</div></button>
             </form>
         </div>
     </section>
